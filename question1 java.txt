@@ -1,0 +1,45 @@
+//1) Declare one method without parameters and one method with parameters
+
+public class parameterTypes {
+
+
+    String bookAuthor;
+    String bookName;
+    int noOfPages;
+    int noOfCopies;
+
+   //Method without parameters
+
+    public static void onePiece(){
+
+        System.out.println("Oda is author of One Piece manga.");
+    }
+
+    //Method with parameters
+
+        public static void book(String bookAuthor, String bookName, int noOfPages, int noOfCopies){
+        System.out.println("Author Name: "+ bookAuthor);
+        System.out.println("Author Name: "+ bookName);
+        System.out.println("Author Name: "+ noOfPages);
+        System.out.println("Author Name: "+ noOfCopies);
+
+    }
+
+    public static void main(String[] args){
+
+        book book1 = new book();
+        book1.bookAuthor = "James Clear";
+        book1.bookName = "Atomic Habits";
+        book1.noOfPages = 300;
+        book1.noOfCopies = 1000000;
+    }
+
+    book1.book();
+
+
+}
+
+
+
+
+

@@ -1,0 +1,127 @@
+//4. Declare a constructor with and without parameter for the above mentioned question and initialise the object.
+
+
+public class Anime{
+
+String animeName;
+int year;
+int noOfViewers;
+String mainCharacter;
+String role;
+
+
+//No param Constructor
+public Anime(){
+
+System.out.println("This is a constructor with no parameter")
+
+}
+
+
+//constructor with parameters
+
+public Anime(String animeName, int year, int noOfViewers, String mainCharacter, String role){
+this.animeName = animeName;
+this.year = year;
+this.noOfViewers = noOfViewers;
+this.mainCharacter = mainCharacter;
+this.role = role;
+
+}
+
+
+public static void animeDetails(){
+
+System.out.println("Name of the anime: " +animeName);
+System.out.println("Year: " +year);
+System.out.println("No of viewers: " +noOfViewers);
+System.out.println("Main character: " +mainCharacter);
+System.out.println("Role: " +role);
+
+}
+
+
+}
+
+
+public class AnimeInfo{
+
+public static void main(String[] args){
+
+//no params constructor object
+
+Anime anime1 = new Anime();
+Anime anime2 = new Anime();
+
+
+//Object for constructor with parameters
+
+Anime anime3 = new Anime("One Piece", 2002, 300000000, "Straw Hat Luffy", "Pirate");
+
+Anime anime4 = new Anime("Naruto", 2003, 10000000, "Naruto Uzumaki", "Ninja");
+
+Anime anime5 = new Anime("Bleach", 2002, 2000000, "Ichigo Kurosaki", "Shinigami");
+
+anime3.animeDetails();
+System.out.println("------------------------------------------------------------------------------------------------------------");
+
+anime4.animeDetails();
+System.out.println("------------------------------------------------------------------------------------------------------------");
+
+anime5.animeDetails();
+System.out.println("------------------------------------------------------------------------------------------------------------");
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

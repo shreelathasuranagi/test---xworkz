@@ -1,0 +1,143 @@
+//3. Create a class and declare 5 class variables and 4 methods. Create 4 objects.
+
+public class Book {
+
+
+	String authorName;
+	int noOfCopies;
+	int price;
+	String bookName;
+	String publisher;
+
+//4 Methods
+
+public static void toRead(){
+
+}
+
+public static void toWrite(){
+
+}
+
+public static void toSell(){
+
+}
+
+public static void reviews(){
+
+}
+
+}
+
+
+public class BookDetails{
+
+
+public static void main(String[] args){
+
+
+
+//4 Objects
+
+
+//object1
+Book book1 = new Book();
+book1.authorName = "James Clear";
+book1.noOfCopies = 100000;
+book1.price = 300;
+book1.bookName = "Atomic Habits";
+book1.publisher = "Clear publications";
+
+
+System.out.println("Author name: " +book1.authorName);
+System.out.println("No of Copies sold: " + book1.noOfCopies);
+System.out.println("Price: " +book1.price);
+System.out.println("Book Name: " +book1.bookName);
+System.out.println("Publisher: " +book1.publisher);
+
+System.out.println("---------------------------------------------------------------------------------------------------");
+
+//object2
+Book book2 = new Book();
+book2.authorName = "Robert Greene ";
+book2.noOfCopies = 600000;
+book2.price = 600;
+book2.bookName = "Power";
+book2.publisher = "Greene publications";
+
+
+System.out.println("Author name: " +book2.authorName);
+System.out.println("No of Copies sold: " + book2.noOfCopies);
+System.out.println("Price: " +book2.price);
+System.out.println("Book Name: " +book2.bookName);
+System.out.println("Publisher: " +book2.publisher);
+
+System.out.println("---------------------------------------------------------------------------------------------------");
+
+//object3
+Book book3 = new Book();
+book3.authorName = "Lauren Roberts";
+book3.noOfCopies = 200000;
+book3.price = 400;
+book3.bookName = "Powerless";
+book3.publisher = "Robert publications";
+
+
+System.out.println("Author name: " +book3.authorName);
+System.out.println("No of Copies sold: " + book3.noOfCopies);
+System.out.println("Price: " +book3.price);
+System.out.println("Book Name: " +book3.bookName);
+System.out.println("Publisher: " +book3.publisher);
+
+System.out.println("---------------------------------------------------------------------------------------------------");
+
+
+//object4
+Book book4 = new Book();
+book4.authorName = "Robert Greene";
+book4.noOfCopies = 900000;
+book4.price = 700;
+book4.bookName = "The Laws of Human Nature";
+book4.publisher = "Greene publications";
+
+
+System.out.println("Author name: " +book4.authorName);
+System.out.println("No of Copies sold: " + book4.noOfCopies);
+System.out.println("Price: " +book4.price);
+System.out.println("Book Name: " +book4.bookName);
+System.out.println("Publisher: " +book4.publisher);
+
+System.out.println("---------------------------------------------------------------------------------------------------");
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+}
